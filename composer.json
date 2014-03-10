@@ -1,0 +1,19 @@
+{
+    "name":        "tomkyle/templates",
+    "type":        "library",
+
+    "authors": [
+        {
+            "name":  "Carsten Witt",
+            "email": "tomkyle@posteo.de",
+            "role":  "Developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "tomkyle\\Templates\\": "src/"
+        }
+    }
+
+}
