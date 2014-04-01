@@ -8,30 +8,14 @@ namespace tomkyle\Templates;
 
 
 /**
- * HasTemplateFileInterface
+ * HasTemplateFileInterface - BC Hack
  *
  * Interceptor methods for template files.
  *
  * @author Carsten Witt <tomkyle@posteo.de>
  */
-interface HasTemplateFileInterface
+interface HasTemplateFileInterface extends TemplateFileAwareInterface
 {
 
-/**
- * Sets the template file for the implementing object.
- *
- * @param  string|null $template
- * return  HasTemplateFileInterface Fluent Interface
- */
-    public function setTemplateFile($template);
-
-
-/**
- * Returns the template file for the implementing object;
- * If none set, returns `null`.
- *
- * @return string|null
- */
-    public function getTemplateFile();
 
 }
