@@ -1,5 +1,12 @@
 #Changelog
 
+
+##2.0.0
+Release date: 2014-04-22
+
+- Old interface `HasTempalteFileInterface` and trait `HasTemplateFileTrait` both removed.
+- Use `TemplateFileAwareInterface` and `TemplateFileAwareTrait` instead.
+
 ##1.0.5
 Release date: 2014-04-01
 
